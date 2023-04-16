@@ -1,0 +1,283 @@
+.header{
+	background: rgba(217, 0, 0, 0.35);
+}
+.container{
+	max-width: 1280px;
+	margin: 0 auto;
+}
+
+.container__header{
+	display: flex;
+
+}
+.logo{
+	font-family: 'Kelly Slab';
+font-style: normal;
+font-weight: 400;
+font-size: 96px;
+line-height: 116px;
+color: #7C2B40;
+margin-right: auto;
+
+}
+.navList{
+	display: flex;
+
+}
+.nav__item{
+	font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 164.06%;
+/* or 39px */
+letter-spacing: 0.1em;
+color: #2D203A;
+margin-right: 50px;
+list-style: none;
+
+
+}
+.nav__list{
+	text-decoration: none;
+	color: #2D203A;
+}
+.nav{
+	margin: auto 0;
+}
+/* ---------------HERO-BLOCK------------------   */
+
+.hero-block{
+	background: rgba(217, 0, 0, 0.35);
+}
+.container__hero-block{
+	display: flex;
+	justify-content:space-around;
+
+}
+.hero__block__images{
+	width: 140px;
+}
+.hero__block__contect{
+	background: linear-gradient(180deg, #D1273F 0%, rgba(254, 203, 48, 0) 56.77%, #D1273F 97.92%);
+border-radius: 20px;
+
+}
+.hero__block__title{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 48px;
+line-height: 5%;
+/* or 2px */
+text-align: center;
+letter-spacing: 0.2em;
+margin-bottom: 60px;
+
+color: #2D203A;
+}
+
+.hero__block__text{
+	font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 200%;
+/* or 32px */
+max-width: 485px;
+padding: 40px 40px 0px 40px;
+
+color: #2D203A;
+}
+.hero__block__botton{
+	font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 200%;
+/* or 32px */
+
+background: #2D203A;
+border-radius: 30px;
+color: #FFFFFF;
+width: 215px;
+margin-bottom: 10px;
+margin-left: 325px;
+
+}
+
+/*---------Квадратики---------*/
+.squre{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 50px;
+}
+.sq{
+	height: 50px;
+	width: 150px;
+	background: red;
+}
+
+/*----------------------------*/
+
+
+
+/*-----------ABOUT-----------------*/
+.about{
+	background: #DAC2F6;
+}
+.container__about{
+	padding-top: 15px;
+}
+.about__top{
+	background: linear-gradient(180deg, #D1273F 0%, rgba(254, 203, 48, 0) 56.77%, #D1273F 97.92%);
+border-radius: 20px;
+padding: 20px;
+max-width: 575px;
+margin: 0 auto ;
+}
+.title__about{
+	font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 38px;
+text-align: center;
+color: #2D203A;
+margin-top: 0;
+}
+.text__about{
+	font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+
+color: #2D203A;
+
+}
+.sub__item{
+	font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+
+color: #7C2B40;
+}
+.about__skills{
+	font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 38px;
+
+color: #2D203A;
+}
+.about__down{
+	display: flex;
+	justify-content: space-between;
+}
+
+
+.item__about{
+	list-style: none;
+}
+
+.grey__line{
+	background-color: grey;
+	height: 4px;
+	width: 445px;
+}
+.red__line{
+	background: #7C2B40;
+	height: 4px;
+	width: 400px;
+}
+
+/*-------Video------*/
+.video{
+	background: rgba(217, 0, 0, 0.35);
+}
+.video__title{
+	padding-top: 40px;
+	margin-top: 0;
+	text-align: center;
+	font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 38px;
+text-align: center;
+
+color: #2D203A;
+}
+.video__text{
+	font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #7C2B40;
+
+margin-top: 50px;
+
+
+}
+.video_V{
+	padding: 100px 0;
+}
+
+/*GALLARY*/
+.gallry__list{
+margin: 0;
+padding: 0;
+display: flex;
+flex-wrap: wrap;
+}
+
+.gallry__item{
+	list-style: none;
+	width: 25%;
+	margin-bottom: -10px;
+}
+
+
+.gallary__img{
+	width: 100%;
+}
+
+/*Foooter*/
+.left__footer{
+	display: flex;
+}
+
+.test{
+	justify-content: center;
+	display: flex;
+	list-style: none;
+}
+
+.test__item{
+	background: orange;
+	padding: 20px;
+font-size: 30px;
+margin: 50px;
+}
+
+.test__item:last-child{
+	background: blue;
+}
+.test__item:first-child{
+	background: green;
+}
+.test__item:not(:last-child){
+	background: aliceblue;
+}
+.test__item:hover{
+	background: grey;
+	color: red;
+	font-size: 50px;
+	transition: 2s;
+}
