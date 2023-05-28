@@ -2,12 +2,13 @@
 	background: rgba(217, 0, 0, 0.35);
 }
 .container{
-	max-width: 1280px;
-	margin: 0 auto;
+	width: min(100% - 2rem, 1280px);
+    margin-inline: auto;
 }
 
 .container__header{
 	display: flex;
+	align-items: center;
 
 }
 .logo{
@@ -280,4 +281,150 @@ margin: 50px;
 	color: red;
 	font-size: 50px;
 	transition: 2s;
+}
+
+/*меню бургер*/
+.burger{
+	width: 80px;
+	height:50px;
+	border: none;
+	background-color: transparent;
+	display: none;
+}
+.burger__line{
+	background: black;
+	width: 100%;
+	height: 10px;
+	margin-bottom: 10px;
+}
+
+/*Адаптивный дизайн*/
+
+@media (max-width: 870px){
+	.container{
+		max-width: 630px;
+	}
+	.burger{
+		display: block;
+	}
+	.navList{
+		display: none;
+	}
+	.container__hero-block{
+		flex-direction: column;
+	}
+	.hero__block__img
+	{
+		display: block;
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 50px;
+	}
+	.hero__block__botton{
+		
+		
+		margin-left:auto ;
+		margin-right: auto;
+		display: block;
+	}
+	.squre{
+		display: none;
+	}
+	.hero__block__contect{
+		padding-bottom: 30px;
+	}
+	.about__down{
+		flex-direction: column-reverse;
+	}
+	.img__about{
+		margin: 0 auto;
+		display: block;
+		border-radius: 50px;
+		margin-top: 30px;
+	}
+	.about__skills{
+		text-align: center;
+	}
+	.list__about{
+		padding: 0;
+		
+		display: block;
+	}
+	.item__about{
+		margin: 0 auto;
+		display: block;
+
+	}
+	.about__left{
+		margin:  0 auto;
+	}
+	.container__hero-block{
+		padding-bottom: 30px;
+	}
+	.video__text{
+		text-align: center;
+	}
+	.video_V{
+		height: 300px;
+	}
+	.gallry__item{
+		width: 50%;
+	}
+	.footer{
+		display: none;
+	}
+
+}
+@media (max-width:1100px){
+	.nav__list{
+		font-size: 16px;
+	}
+}
+
+
+@media (max-width:450px){
+	.container{
+		max-width: 360px;
+	}
+	.hero__block__images{
+		width: 80px;
+	}
+	.logo{
+		margin-bottom: 20px;
+	}
+	.hero__block__title{
+		font-size: 38px;
+	}
+	.hero__block__text{
+		text-align: center;
+		padding-top: 0;
+	}
+	.hero__block__contect{
+		margin-bottom: 5px;
+	}
+	.hero__block__botton{
+		margin-bottom: 0;
+	}
+	.img__about{
+		width: 250px;
+	}
+	.about__skills{
+		font-size: 24px;
+	}
+	.red__line{
+		width: 70%;
+	}
+	.grey__line{
+		width: 250px;
+	}
+	.video__text{
+		margin-top: 15px;
+	}
+	.video_V{
+		padding: 15px 0;
+	}
+	.gallry__item{
+		width: 100%;
+	}
+
 }
